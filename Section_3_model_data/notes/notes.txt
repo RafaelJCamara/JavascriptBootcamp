@@ -1,0 +1,10 @@
+* You can define strings using double quotes (") or single quotes (')
+
+* In javascript, strings are index.
+
+* There are two terms that are confusing when we speak about the primitive data types: null and undefined.
+    - Null: Means the intentional absence of value. Must be assigned.
+    - Undefined; Variables that do not have assigned value. This is what you find with more frequence. Ex. when you go to an array index that has no value.
+
+* You can determine the type of a value using the 'typeof' operator.
+
