@@ -18,6 +18,8 @@
 
 * There was an older way of creating variables, which is using the var keyword. But, as I've said, is not used as much today.
 
+* When we are defining variables, by using the 'let' keyword, if we try to create another variable with the same name, we will get an error.
 
+* When we use the 'const' keyword, the value we define in the variable declaration, is the value it will have in the application's lifetime.
 
 
