@@ -1,0 +1,9 @@
+* Javascript isn't like traditional software systems, where you download recent versions.
+
+* Javascript is implemented by the browsers, and it is up to the browsers to implement the new features from javascript.
+
+* ECMA: international group responsible for definining stardands (not only related to programming)
+
+* ECMAscript: specification, from ECMA, for a programming language (document that explains how a language should work)
+
+* ES2017 (ES here stands for ECMAscript) defines the specification defined for the programming language in 2017.

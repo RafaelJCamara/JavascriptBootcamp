@@ -1,0 +1,23 @@
+* There 7 primitive types in Javascript, which can be seen in the following list (only the first 5 are the most used):
+    - Number
+    - Boolean
+    - String
+    - Null
+    - Undefined
+    - Symbol (less used)
+    - BigInt (less used)
+
+
+* Two important things that exist in the numeric realm are NaN (Not a Number) and Infinity.
+    - NaN indicates the absense of numeric value (ex. 0/0)
+    - Infinity indicates a really big number (to obtain infinity we can do the following operation: 1/0)
+
+* To create a variable in Javascript, there are two main keywords we can use: let or const.
+    - let variable: 'let age = 30'
+    - const variable 'const age = 30'
+
+* There was an older way of creating variables, which is using the var keyword. But, as I've said, is not used as much today.
+
+
+
+
