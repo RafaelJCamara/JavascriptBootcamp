@@ -1,0 +1,11 @@
+* One important thing to notice is the difference between == and ===
+    - == only checks for value equality, but not type equality. It will coerse, meaning transform, one of the types to another one, so that they can be compared under the same type.
+    - === checks for both value equality but also for type equality
+
+* Every value in JS has an inherit truthy and falsy value.
+    - false, 0, "" (empty string), null, undefined, NaN: all of those have falsy values
+    - the remaining have a truthy value associated
+
+* When dealing with conditionals, we must be aware of the operator precedence.
+    - For example, & operator has a higher precedence than the | operator, meaning that it will be evaluated first.
+
