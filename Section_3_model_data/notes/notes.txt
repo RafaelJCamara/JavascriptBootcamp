@@ -1,6 +1,6 @@
 * You can define strings using double quotes (") or single quotes (')
 
-* In javascript, strings are index.
+* In javascript, strings are indexable.
 
 * There are two terms that are confusing when we speak about the primitive data types: null and undefined.
     - Null: Means the intentional absence of value. Must be assigned.
@@ -8,3 +8,4 @@
 
 * You can determine the type of a value using the 'typeof' operator.
 
+* Strings are immutable, meaning that if you try to change any value by the index, the string will not be changed.

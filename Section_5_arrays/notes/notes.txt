@@ -1,0 +1,14 @@
+* Sometimes we need to have collections of data, meaning data that is grouped together that has meaning.
+    - In javascript there are two types of collections:
+        - arrays
+        - objects
+
+* Array is an ordered collection of values. There is an order of the items stored.
+
+* Arrays are mutable, meaning you can change the elements it contains.
+    - You can even add an element at an index that goes behond the strings current last value, and that added value would be added with success.
+
+
+
+
+
