@@ -1,0 +1,1 @@
+* When we compare arrays with == or ===, we are comparing references, not contents of the aray.
