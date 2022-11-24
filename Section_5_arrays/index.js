@@ -76,3 +76,24 @@ console.log(stuff.includes('steak'))
  */
 console.log(stuff.indexOf('orange'))
 console.log(stuff.indexOf('banana'))
+
+
+/**
+ * The reverse method reverses the content of the array, and modifies the array it acts uppon.
+ */
+console.log(stuff);
+stuff.reverse();
+console.log(stuff);
+
+/**
+ * The join method will aggregate all the content of the array into a string, by the character defined in the method.
+ * If the content of the array is of different types, it will convert those types into strings, and perform the join operation.
+ */
+const letters = ['O', 'L', 'L', 'E', 'H'];
+console.log(letters.reverse().join(' '));
+
+/**
+ * Other relevant array methods:
+ * -> slice: which copies a portion of the original array, without modifying the original array. Returns the sliced part.
+ * -> splice: removes or inserts in the array. Returns the deleted portion of the array.
+ */

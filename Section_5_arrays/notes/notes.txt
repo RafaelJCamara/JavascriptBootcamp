@@ -8,7 +8,5 @@
 * Arrays are mutable, meaning you can change the elements it contains.
     - You can even add an element at an index that goes behond the strings current last value, and that added value would be added with success.
 
-
-
-
-
+* We often use const with arrays, to avoid our references to arrays to change.
+    - The contents of the array can change, but the reference is the same.
