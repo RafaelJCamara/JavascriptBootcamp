@@ -1,0 +1,8 @@
+* There's a special keyword that we use inside loops which is the "break" keyword.
+    -  When we encounter this keyword, the loop will exit.
+
+* We don't want to use a "for of" loop when we want to access the index of the iteration.
+
+* For of loops won't work natively in objects.
+
+* For in loops iterate over objects properties.
