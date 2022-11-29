@@ -1,0 +1,36 @@
+* We can define scope in javascript as the visibility of a variable.
+    - It means, where we can see the value of that variable.
+
+* In Javascript, we have 3 main types of scopes:
+    - global scope
+        -> global scope is normally defined as stuff declared outside functions and blocks
+        -> this is the default scope
+
+    - block scope
+        -> block scope is normally defined inside statements such as if, switch.
+        -> variables declared with var, don't have block scope
+        -> a block in javascript is denoted with {}
+    
+    - function scope
+        -> variables defined in this scope, are not accessible from the outside, and are normally defined inside functions
+        -> if we define a variable with let in the global scope, and another one with same name in the function scope, the value that will be used is the variable value of the nearest scope. Meaning that if the variable is used inside the function, it will look for that variable name inside that scope.
+
+* There's also another important feature in Javascript which is Higher Order Functions.
+    - Are functions that operate on/with other functions.
+    - This functions have one of the following aspects:
+        -> Receives another function as argument
+        -> Returns a function
+
+* Another important concept in javascript is callbacks.
+    - Callbacks are simply functions that are passed to other functions, and are executed in the context of the function they are passed.
+
+* Another important concept in javascript is hoisting.
+    - Hoisting just means that, javascript will interprete variables and function declarations to the beginning of the script declaration.
+    - Things that don't get hoisted, meaning don't go to the top of the file
+        -> let
+        -> const
+        -> function expression
+    - Things that get hoisted:
+        -> var
+        -> function statement
+
