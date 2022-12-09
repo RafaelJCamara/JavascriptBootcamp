@@ -77,3 +77,55 @@ console.log(filteredNums)
 console.log("************************************************************************************")
 
 
+console.log("************************************************************************************")
+console.log("***** SOME and EVERY *****")
+
+/**
+ * SOME: returns true or false, depending if there is at least one element that matches the callback function passed
+ * EVERY: returns true or false, depending if every element that matches the callback function passed
+ */
+
+const names = ["Jan", "Feb", "Mar", "Apr", "May", "Juns"]
+console.log(names.some(name => name.length === 3))
+console.log(names.every(name => name.length === 3))
+
+
+console.log("************************************************************************************")
+
+
+console.log("************************************************************************************")
+console.log("***** Reduce *****")
+
+/**
+ * The purpose of reduce is tho shrink down all the elements from an array down to a single element
+ * For example, it might be useful if you want to find the sum of the elements of an array or if you want to find the maximum value of an item in the array
+ * The value returned from each array pass is stored inside the accumulator variable
+ * When we start the reduce function, the accumulator starts with the value of the first element and the current starts with the value of the second element
+ */
+
+const elements = [1,2,3,4,5]
+
+//find the sum of the elements
+const sumOfArray = elements.reduce((accumulator, current) =>{
+    return accumulator + current;
+});
+
+console.log(sumOfArray)
+
+/**
+ * The reduce function also accepts a second argument that corresponds to the initial value we want to start with
+ * In the example below, the "regular" sum would be 15, but by passing the initial value of 100, the final sum will be 115.
+ */
+const sumOfArrayWithInitValue = elements.reduce((accumulator, current) =>{
+    return accumulator + current;
+}, 100);
+
+console.log(sumOfArrayWithInitValue)
+
+const maxElement = elements.reduce((maxValue, current) =>{
+    return Math.max(maxValue, current);
+});
+
+console.log(maxElement)
+
+console.log("************************************************************************************")
